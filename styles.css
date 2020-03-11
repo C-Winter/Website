@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Asap:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,700;1,400;1,700&display=swap');
  :root {
     --accent: #43D7C3;
     --dark: #373737;
@@ -279,13 +279,7 @@ textarea.form__control {
     box-shadow: 0 0 0 2px rgba(216, 40, 163, .8);
 }
 
-.form__control:required:valid {
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAA1ElEQVRIie3VOwrCQBRA0SvuwJW4AkvRUhHtVCzE1v8fwc4fbsSFuAIXYqNoYiycwCNFJo4TbHLbvJw3DIFA0h/LAal0THgbOAGZOPAW4AIeMLGNNwU+tY03BD6zjdeAp8LntvGqwBe28YrAl2GDWQNcnjwUXwMOUP8CLwMPha90w2M16PD5EnSVBL6JeqKResHVLCkCdzW7jYr7DTVLCgLffYv7DRTwAjoB/Kae7U1xv35gSV7gh19xP3ldxneuq6tgDziaImH/gzNwBS5Az3RBkrY3LltA/9XJVDYAAAAASUVORK5CYII=);
-    background-repeat: no-repeat;
-    background-position: 95% .8rem;
-    background-size: 1rem;
-    box-shadow: 0 0 0 2px rgb(186, 255, 221);
-}
+
 
 .form__helper {
     margin-top: 0;
@@ -326,8 +320,27 @@ textarea.form__control {
     margin-bottom: var(--section-padding);
 }
 
+body.thank {
+    display: flex;
+    height: 100vh
+}
+
+.thank-box {
+    color: var(--light);
+    text-align: center;
+    margin: auto
+}
+
+.thank-box__title {
+    color: var(--accent)
+}
+
+.thank-box__title b {
+    text-decoration: underline;
+}
+
 @media screen and (min-width: 40rem) {
-    html {
+    html.home {
         background: var(--dark) url(tourets-bois.webp) no-repeat;
         background-size: 100%;
         background-position: center 70vh;
