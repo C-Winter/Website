@@ -306,7 +306,7 @@ textarea.form__control {
   font-size: 0.8rem;
 }
 
-.form__button {
+.button {
   appearance: none;
   border: 0;
   font-family: inherit;
@@ -318,13 +318,13 @@ textarea.form__control {
   color: var(--accent);
 }
 
-.form__button:hover,
-.form__button:focus {
+.button:hover,
+.button:focus {
   background-color: var(--light);
   color: var(--dark);
 }
 
-.form__button:active {
+.button:active {
   box-shadow: 0 0 0 5px var(--accent), 0 0 3px 0 var(--dark);
 }
 
@@ -421,3 +421,8 @@ body.thank {
     grid-column: 1 / span 2;
   }
 }
+
+
+/* Utils */
+
+.honey {display:none}
