@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 :root {
   --accent: #43d7c3;
   --dark: #373737;
@@ -463,7 +463,7 @@ body.thank {
   html.home {
     background-color: var(--dark);
     background-image: 
-      linear-gradient(rgba(0,0,0,.3), #373737 40%),
+      linear-gradient(rgba(0,0,0,.3), #373737 35%),
       url(tourets-bois-pvc-contreplaque.jpg);
     background-repeat: no-repeat;
     background-size: contain;
