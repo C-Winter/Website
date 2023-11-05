@@ -64,7 +64,7 @@ p {
 h1,
 h2,
 h3 {
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 address {
@@ -177,6 +177,7 @@ svg {
   padding: 1rem;
   color: var(--dark);
   border-radius: 0.5rem;
+  text-align: center;
 }
 
 .note a {
@@ -241,6 +242,7 @@ svg {
   background-color: var(--accent);
   width: 100vw;
 }
+
 
 .map__title {
   font-size: 2rem;
@@ -464,7 +466,7 @@ body.thank {
     background-color: var(--dark);
     background-image: 
       linear-gradient(rgba(0,0,0,.3), #373737 35%),
-      url(tourets-bois-pvc-contreplaque.jpg);
+      url(tourets-bois-pvc-contreplaque.webp);
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -502,9 +504,14 @@ body.thank {
   /* A map ! */
   .map {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
   }
+
+  .map svg {
+    width: 50vw;
+  }
+  
   /* Trust resp */
   .trust {
     text-align: left;
